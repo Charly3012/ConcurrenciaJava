@@ -1,10 +1,8 @@
 package HiloBasico;
 
-import javax.management.RuntimeErrorException;
-
 public class HiloThread extends Thread {
 
-    // La finalidad de esta practica es crear dos blubles que se ejecuten de manera
+    // La finalidad de esta practica es crear dos blucles que se ejecuten de manera
     // simultanea
     public void run() {
         for (int i = 0; i <= 5; i++) {
